@@ -1,0 +1,39 @@
+--------------------------------------
+|             DatabaseExample         |
+--------------------------------------
+| - JDBC_URL: String                  |
+--------------------------------------
+| + main(args: String[]): void        |
+--------------------------------------
+
+--------------------------------------
+|             Connection             |
+--------------------------------------
+|                                   |
+--------------------------------------
+
+--------------------------------------
+|            Statement               |
+--------------------------------------
+| + executeQuery(sql: String): ResultSet |
+| + executeUpdate(sql: String): int  |
+| + close(): void                    |
+--------------------------------------
+
+--------------------------------------
+|        PreparedStatement          |
+--------------------------------------
+| + setString(parameterIndex: int, value: String): void |
+| + setInt(parameterIndex: int, value: int): void |
+| + executeUpdate(): int             |
+| + close(): void                    |
+--------------------------------------
+
+--------------------------------------
+|            ResultSet               |
+--------------------------------------
+| + next(): boolean                  |
+| + getInt(columnName: String): int  |
+| + getString(columnName: String): String |
+| + close(): void                    |
+--------------------------------------
